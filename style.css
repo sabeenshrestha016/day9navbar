@@ -52,22 +52,83 @@
 .navbar-first ul li:nth-child(2) a {
     border: 2px dashed black;
     border-width: 2px;
-    border-top:inherit ;
-    border-bottom:inherit ;
-    border-width:10px ;
+    border-top: inherit;
+    border-bottom: inherit;
+    border-width: 10px;
 
 }
 
 .navbar-first ul li:nth-child(3) a {
     border: 2px solid green;
-    border-top-right-radius:35px;
+    border-top-right-radius: 35px;
     border-left-color: black;
     border-right-color: #3498db;
- 
+
 
 }
 
 .navbar-first ul li:nth-child(4) a {
     border: 2px dotted black;
     background: green;
+}
+
+
+.navbar-second ul {
+    background: #009;
+    margin-top: 40px;
+    text-align: center;
+
+
+}
+
+
+
+
+
+.navbar-second ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 15px;
+    margin: 10px 15px;
+
+}
+
+.navbar-second ul li a {
+    text-decoration: none;
+    color: black;
+    background: #00ff80;
+    display: inline-block;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid #00ff80;
+    border-radius: 22px;
+    transition: 0.5s;
+    text-transform: uppercase;
+    border: 5px;
+
+
+}
+
+.navbar-second ul li a:hover {
+    background: #fff;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top: inherit;
+    border-bottom: inherit;
+    border-right-color: #00331a;
+    border-right-width: 5px;
+    border-left-color: #00331a;
+    border-left-width: 5px;
+    color: #66ffff;
+
+}
+
+
+.navbar-second ul li:nth-child(1) {
+    float: left;
+}
+
+.navbar-second ul li:nth-child(5) {
+    float: right;
 }
